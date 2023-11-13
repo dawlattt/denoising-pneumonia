@@ -75,12 +75,15 @@ def read_mini_mias():
 def read_dataset(path=None, img_width=64, img_height=64):
     try:
         images = []
-        for filename in os.listdir(path):
-            img = cv2.imread(os.path.join(path, filename), cv2.IMREAD_GRAYSCALE)
+        for folder in os.listdir(path):
+            if os.path.isdir(os.path.join(path, folder)):
+                for filename in os.listdir(os.path.join(path, folder)):
+                    f = os.path.join(path, folder)
+                    img = cv2.imread(os.path.join(f, filename), cv2.IMREAD_GRAYSCALE)
 
-            if img is not None:
-                img = cv2.resize(img, (img_width, img_height))
-                images.append(img)
+                    if img is not None:
+                        img = cv2.resize(img, (img_width, img_height))
+                        images.append(img)
         return numpy.array(images)
     except:
         print("Error has occured during data loading")
