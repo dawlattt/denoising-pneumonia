@@ -101,12 +101,13 @@ class CNN_denoiser():
         return input_train, input_test
 
     def train(self, noisy_input, pure, save=False, verbosity=0):
-        self.model.fit(noisy_input, pure,
+        history = self.model.fit(noisy_input, pure,
                        epochs=self.nu_epochs,
                        batch_size=self.batch_size, validation_split=self.validation_split, verbose=verbosity)
 
         if save:
             self.model.save("trainedModel.h5")
+        return history
 
     def evaluate(self, noisy_input_test, pure_test):
         test_scores = self.model.evaluate(noisy_input_test, pure_test, verbose=2)
