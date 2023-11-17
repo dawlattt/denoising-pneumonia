@@ -16,5 +16,5 @@ For the baseline, please refer to the following files:
 
 For results after applying the [CDA denoiser](https://github.com/adam-mah/Medical-Image-Denoising), please refer to the following files:
 
-    resnet_denoise.ipynb
-    swin_denoise.ipynb
+    resnet_CDA.ipynb
+    swin_CDA.ipynb
