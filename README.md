@@ -16,5 +16,5 @@ For the baseline, please refer to the following files:
 
 For results after applying the CDA denoiser, please refer to the following files:
 
-    resnet_denoised.ipynb
-    swin_denoised.ipynb
+    resnet_denoise.ipynb
+    swin_denoise.ipynb
