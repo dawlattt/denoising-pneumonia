@@ -4,7 +4,7 @@ In this project, we are evaluating the impact of denoising techniques on several
 Our next step involved applying different denoising techniques to remove noise from our dataset. The denoising methods we utilized include:
 
     CDA denoiser (for results, see CDA.ipynb)
-    BM3 
+    BM3d denoiser 
     Khalil's denoiser
 
 After removing noise, we retrained ResNet50 and Swin Transformer, but this time on denoised images.
