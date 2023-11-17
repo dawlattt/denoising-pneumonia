@@ -5,7 +5,7 @@ Our next step involved applying different denoising techniques to remove noise f
 
     CDA denoiser (for results, see CDA.ipynb)
     BM3 
-    Kalil's denoiser
+    Khalil's denoiser
 
 After removing noise, we retrained ResNet50 and Swin Transformer, but this time on denoised images.
 
