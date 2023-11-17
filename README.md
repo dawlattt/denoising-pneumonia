@@ -3,7 +3,7 @@ In this project, we are evaluating the impact of denoising techniques on several
 
 Our next step involved applying different denoising techniques to remove noise from our dataset. The denoising methods we utilized include:
 
-    [CDA denoiser](https://github.com/adam-mah/Medical-Image-Denoising) (for results, see CDA.ipynb)
+    CDA denoiser (for results, see CDA.ipynb)
     BM3 
     Khalil's denoiser
 
@@ -14,7 +14,7 @@ For the baseline, please refer to the following files:
     resnet_original.ipynb
     swin_original.ipynb
 
-For results after applying the CDA denoiser, please refer to the following files:
+For results after applying the [CDA denoiser](https://github.com/adam-mah/Medical-Image-Denoising), please refer to the following files:
 
     resnet_denoise.ipynb
     swin_denoise.ipynb
