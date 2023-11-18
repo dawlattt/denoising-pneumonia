@@ -11,10 +11,15 @@ After removing noise, we retrained ResNet50 and Swin Transformer, but this time 
 
 For the baseline, please refer to the following files:
 
-    resnet_original.ipynb
-    swin_original.ipynb
+    resnet_baseline.ipynb
+    swin_baseline.ipynb
 
 For results after applying the [CDA denoiser](https://github.com/adam-mah/Medical-Image-Denoising), please refer to the following files:
 
     resnet_CDA.ipynb
     swin_CDA.ipynb
+
+For results after applying the Bm3D denoiser, please refer to the following files:
+
+    resnet_bm3d.ipynb
+    swin_bm3d.ipynb
