@@ -44,5 +44,5 @@ For results after applying the Wavelet denoiser, please refer to the following f
     resnet_wavelet.ipynb
     swin_wavelet.ipynb
     
-All weights can be found [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoFn_5c7Ib1Gnk5mxSn9OdcBnt0CDnBhEZqwjnNE3oeIig?e=J8t9Hg)https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoFn_5c7Ib1Gnk5mxSn9OdcBnt0CDnBhEZqwjnNE3oeIig?e=J8t9Hg).
+All weights can be found [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoFn_5c7Ib1Gnk5mxSn9OdcBnt0CDnBhEZqwjnNE3oeIig?e=nhiOuB).
 
