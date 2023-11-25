@@ -7,7 +7,7 @@ In this project, we are evaluating the impact of denoising techniques like, Conv
 For the baseline, please refer to the following files:
 
 - **Baseline**
-  - [automl_baseline.ipynb]()
+  - [automl_baseline.ipynb](AutoML/automl_baseline.ipynb)
   - [svm_baseline.ipynb]()
   - [logistic_regression_baseline.ipynb]()
   - [resnet_baseline.ipynb]()
