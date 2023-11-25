@@ -1,14 +1,8 @@
 # denoising-pneumonia
 In this project, we are evaluating the impact of denoising techniques like, Convolutional Denoising Autoencoders, Block Matching 3D, and Wavelet on several pneumonia classifiers. We have selected AutoML, Logistic Regression, SVM, ResNet50 and Swin Transformer as the models for our classifiers. These models are trained on the [Chest X-ray Pneumonia dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), and the achieved results were used as a baseline. For training the Machine Learning models we extracted features from the original dataset after training ResNet18 model on our dataset, where we flattened the last convolutional layer to end up with 512 features for each image. 
 
+![diagram](https://github.com/dawlattt/denoising-pneumonia/assets/150269995/dcb62888-6cf1-4629-889d-2cff54cfe786)
 
-Our next step involved applying different denoising techniques to remove noise from our dataset. The denoising methods we utilized include:
-
-    CDA denoiser (for results, see CDA.ipynb)
-    Bm3d denoiser (for results, see Bm3d.ipynb)
-    Wevelet denoiser (for results, see wavelet.ipynb)
-
-After removing noise, we retrained our models, but this time on denoised images.
 
 For the baseline, please refer to the following files:
 
@@ -17,6 +11,13 @@ For the baseline, please refer to the following files:
     logistic_regression_baseline.ipynb
     resnet_baseline.ipynb
     swin_baseline.ipynb
+
+
+Our next step involved applying different denoising techniques to remove noise from our dataset. The denoising methods we utilized include:
+
+    CDA denoiser (for results, see CDA.ipynb)
+    Bm3d denoiser (for results, see Bm3d.ipynb)
+    Wevelet denoiser (for results, see wavelet.ipynb)
 
 For results after applying the [CDA denoiser](https://github.com/adam-mah/Medical-Image-Denoising), please refer to the following files:
 
