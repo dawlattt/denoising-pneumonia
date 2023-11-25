@@ -25,7 +25,7 @@ Our next step involved applying different denoising techniques to remove noise f
   - Dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/Es4l41z5vtFKqJ86bEeuFdYBtU2CRlrGcUMYlgf--V4gyQ?e=ypPiE4).
 
 - **Wavelet denoiser**
-  - For results, see [wavelet.ipynb](link_to_wavelet.ipynb).
+  - For results, see [wavelet.ipynb](Denoisers/wavelet.ipynb).
   - Dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoD-W5BEoEBHodObX0HsTq4BNF83OriRgVpEUrjcqAzg3Q?e=fl6y1j).
 
 
