@@ -1,5 +1,6 @@
 # denoising-pneumonia
-In this project, we are evaluating the impact of denoising techniques on several pneumonia classifiers. We have selected AutoML, Logistic Regression, SVM, ResNet50 and Swin Transformer as the models for our classifiers. These models were previously train on the [Chest X-ray Pneumonia dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), and the achieved results were used as a baseline. For training the Machine Learning models we extracted features from the original dataset after training ResNet18 model on our data, where we flattened the last convolutional layer. 
+In this project, we are evaluating the impact of denoising techniques like, Convolutional Denoising Autoencoders, Block Matching 3D, and Wavelet on several pneumonia classifiers. We have selected AutoML, Logistic Regression, SVM, ResNet50 and Swin Transformer as the models for our classifiers. These models are trained on the [Chest X-ray Pneumonia dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), and the achieved results were used as a baseline. For training the Machine Learning models we extracted features from the original dataset after training ResNet18 model on our dataset, where we flattened the last convolutional layer to end up with 512 features for each image. 
+
 
 Our next step involved applying different denoising techniques to remove noise from our dataset. The denoising methods we utilized include:
 
