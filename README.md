@@ -44,7 +44,7 @@ In this project, we are evaluating the impact of denoising techniques like, Conv
   - [resnet_bm3d.ipynb](ResNet50/resnet_bm3d.ipynb)
   - [swin_bm3d.ipynb](Swin/swin_bm3d.ipynb)
 
-**For results after applying the BM3D denoiser, please refer to the following files:**
+**For results after applying the Wavelet denoiser, please refer to the following files:**
   - [logistic_regression_wavelet.ipynb](Logistic_Regression/logistic_regression_wavelet.ipynb)
   - [svm_wavelet.ipynb](SVM/svm_wavelet.ipynb)
   - [automl_wavelet.ipynb](AutoML/automl_wavelet.ipynb)
