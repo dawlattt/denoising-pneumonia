@@ -21,8 +21,9 @@ Our next step involved applying different denoising techniques to remove noise f
     Bm3d denoiser
     For results, see Bm3d.ipynb, dataset is available [here]().
     
-    Wevelet denoiser
-    For results, see wavelet.ipynb, dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoD-W5BEoEBHodObX0HsTq4BNF83OriRgVpEUrjcqAzg3Q?e=fl6y1j).
+- **Wavelet denoiser**
+  - For results, see [wavelet.ipynb](link_to_wavelet.ipynb).
+  - Dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoD-W5BEoEBHodObX0HsTq4BNF83OriRgVpEUrjcqAzg3Q?e=fl6y1j).
 
 For results after applying the [CDA denoiser](https://github.com/adam-mah/Medical-Image-Denoising), please refer to the following files:
 
