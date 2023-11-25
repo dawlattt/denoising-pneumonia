@@ -1,5 +1,5 @@
 # denoising-pneumonia
-In this project, we are evaluating the impact of denoising techniques on several pneumonia classifiers. We have selected AutoML, Logistic Regression, SVM, ResNet50 and Swin Transformer as the models for our classifiers. These models were previously train on the [Chest X-ray Pneumonia dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), and the achieved results were used as a baseline.
+In this project, we are evaluating the impact of denoising techniques on several pneumonia classifiers. We have selected AutoML, Logistic Regression, SVM, ResNet50 and Swin Transformer as the models for our classifiers. These models were previously train on the [Chest X-ray Pneumonia dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), and the achieved results were used as a baseline. For training the Machine Learning models we extracted features from the original dataset after training ResNet18 model on our data, where we flattened the last convolutional layer. 
 
 Our next step involved applying different denoising techniques to remove noise from our dataset. The denoising methods we utilized include:
 
@@ -19,9 +19,9 @@ For the baseline, please refer to the following files:
 
 For results after applying the [CDA denoiser](https://github.com/adam-mah/Medical-Image-Denoising), please refer to the following files:
 
-    automl_CDA.ipynb
-    svm_CDA.ipynb
-    logistic_regression_CDA.ipynb
+    automl_cda.ipynb
+    svm_cda.ipynb
+    logistic_regression_cda.ipynb
     resnet_CDA.ipynb
     swin_CDA.ipynb
 
