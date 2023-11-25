@@ -41,3 +41,5 @@ For results after applying the Wavelet denoiser, please refer to the following f
     logistic_regression_wavelet.ipynb
     resnet_wavelet.ipynb
     swin_wavelet.ipynb
+    
+All weights can be found [here](link).
