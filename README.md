@@ -20,7 +20,7 @@ Our next step involved applying different denoising techniques to remove noise f
   - Dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EleswHYsodxNhBVfQknlTTYBSUVkyrrd8ihPkiCFn3emHA?e=1IZ9M4).
 
 - **Bm3d denoiser**
-  - For results, see [Bm3d.ipynb](link_to_Bm3d.ipynb).
+  - For results, see [Bm3d.ipynb](Denoisers/Bm3d.ipynb).
   - Dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/Es4l41z5vtFKqJ86bEeuFdYBtU2CRlrGcUMYlgf--V4gyQ?e=ypPiE4).
 
 - **Wavelet denoiser**
