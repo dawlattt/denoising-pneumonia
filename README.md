@@ -1,5 +1,5 @@
 # denoising-pneumonia
-In this project, we are evaluating the impact of denoising techniques like, Convolutional Denoising Autoencoders, Block Matching 3D, and Wavelet on several classifiers. We have selected AutoML, Logistic Regression, SVM, ResNet50 and Swin Transformer as the models for binary classification of X-Ray Images into normal and pneumonia. These models are trained on the [Chest X-ray Pneumonia dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), and the achieved results were used as a baseline. For training the Machine Learning models we extracted features from the original dataset after training ResNet18 model, where we flattened the last convolutional layer to end up with 512 features for each image. 
+In this project, we are evaluating the impact of denoising techniques like, Convolutional Denoising Autoencoders [CDA](https://github.com/adam-mah/Medical-Image-Denoising), Block Matching 3D, and Wavelet on several classifiers. We have selected AutoML, Logistic Regression, SVM, ResNet50 and Swin Transformer as the models for binary classification of X-Ray Images into normal and pneumonia. These models are trained on the [Chest X-ray Pneumonia dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), and the achieved results were used as a baseline. For training the Machine Learning models we extracted features from the original dataset after training ResNet18 model, where we flattened the last convolutional layer to end up with 512 features for each image. 
 
 ![diagram](https://github.com/dawlattt/denoising-pneumonia/assets/150269995/dcb62888-6cf1-4629-889d-2cff54cfe786)
 
@@ -28,7 +28,7 @@ Our next step involved applying different denoising techniques to remove noise f
   - Dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoD-W5BEoEBHodObX0HsTq4BNF83OriRgVpEUrjcqAzg3Q?e=fl6y1j).
 
 
-For results after applying the [CDA denoiser](https://github.com/adam-mah/Medical-Image-Denoising), please refer to the following files:
+For results after applying the CDA denoiser, please refer to the following files:
 
     automl_cda.ipynb
     svm_cda.ipynb
