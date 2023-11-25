@@ -12,6 +12,8 @@ In this project, we are evaluating the impact of denoising techniques like, Conv
   - [swin_baseline.ipynb](Swin/swin_baseline.ipynb)
 
 
+
+
 **Our next step involved applying different denoising techniques to remove noise from our dataset. The denoising methods we utilized include:**
 
 - **CDA denoiser**
@@ -26,21 +28,23 @@ In this project, we are evaluating the impact of denoising techniques like, Conv
   - For implementation, see [wavelet.ipynb](Denoisers/wavelet.ipynb).
   - Denoied dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoD-W5BEoEBHodObX0HsTq4BNF83OriRgVpEUrjcqAzg3Q?e=fl6y1j).
 
-- **For results after applying the CDA denoiser, please refer to the following files:**
+
+
+**For results after applying the CDA denoiser, please refer to the following files:**
   - [logistic_regression_cda.ipynb](Logistic_Regression/logistic_regression_cda.ipynb)
   - [svm_cda.ipynb](SVM/svm_cda.ipynb)
   - [automl_cda.ipynb](AutoML/automl_cda.ipynb)
   - [resnet_cda.ipynb](ResNet50/resnet_cda.ipynb)
   - [swin_cda.ipynb](Swin/swin_cda.ipynb)
- 
-- **For results after applying the BM3D denoiser, please refer to the following files:**
+
+**For results after applying the BM3D denoiser, please refer to the following files:**
   - [logistic_regression_bm3d.ipynb](Logistic_Regression/logistic_regression_bm3d.ipynb)
   - [svm_bm3d.ipynb](SVM/svm_bm3d.ipynb)
   - [automl_bm3d.ipynb](AutoML/automl_bm3d.ipynb)
   - [resnet_bm3d.ipynb](ResNet50/resnet_bm3d.ipynb)
   - [swin_bm3d.ipynb](Swin/swin_bm3d.ipynb)
 
-- **For results after applying the BM3D denoiser, please refer to the following files:**
+**For results after applying the BM3D denoiser, please refer to the following files:**
   - [logistic_regression_wavelet.ipynb](Logistic_Regression/logistic_regression_wavelet.ipynb)
   - [svm_wavelet.ipynb](SVM/svm_wavelet.ipynb)
   - [automl_wavelet.ipynb](AutoML/automl_wavelet.ipynb)
