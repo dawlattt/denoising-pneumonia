@@ -4,7 +4,7 @@ In this project, we are evaluating the impact of denoising techniques like, Conv
 ![diagram](https://github.com/dawlattt/denoising-pneumonia/assets/150269995/dcb62888-6cf1-4629-889d-2cff54cfe786)
 
 
-- **For the baseline, please refer to the following files:**
+**Basline**
   - [logistic_regression_baseline.ipynb](Logistic_Regression/logistic_regression_baseline.ipynb)
   - [svm_baseline.ipynb](SVM/svm_baseline.ipynb)
   - [automl_baseline.ipynb](AutoML/automl_baseline.ipynb)
@@ -12,7 +12,7 @@ In this project, we are evaluating the impact of denoising techniques like, Conv
   - [swin_baseline.ipynb](Swin/swin_baseline.ipynb)
 
 
-Our next step involved applying different denoising techniques to remove noise from our dataset. The denoising methods we utilized include:
+**Our next step involved applying different denoising techniques to remove noise from our dataset. The denoising methods we utilized include:**
 
 - **CDA denoiser**
   - For results, see [CDA.ipynb](Denoisers/CDA.ipynb).
