@@ -15,16 +15,16 @@ In this project, we are evaluating the impact of denoising techniques like, Conv
 **Our next step involved applying different denoising techniques to remove noise from our dataset. The denoising methods we utilized include:**
 
 - **CDA denoiser**
-  - For results, see [CDA.ipynb](Denoisers/CDA.ipynb).
-  - Dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EleswHYsodxNhBVfQknlTTYBSUVkyrrd8ihPkiCFn3emHA?e=1IZ9M4).
+  - For implementation, see [CDA.ipynb](Denoisers/CDA.ipynb).
+  - Denoied dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EleswHYsodxNhBVfQknlTTYBSUVkyrrd8ihPkiCFn3emHA?e=1IZ9M4).
 
 - **Bm3d denoiser**
-  - For results, see [Bm3d.ipynb](Denoisers/Bm3d.ipynb).
-  - Dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/Es4l41z5vtFKqJ86bEeuFdYBtU2CRlrGcUMYlgf--V4gyQ?e=ypPiE4).
+  - For implementation, see [Bm3d.ipynb](Denoisers/Bm3d.ipynb).
+  - Denoied dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/Es4l41z5vtFKqJ86bEeuFdYBtU2CRlrGcUMYlgf--V4gyQ?e=ypPiE4).
 
 - **Wavelet denoiser**
-  - For results, see [wavelet.ipynb](Denoisers/wavelet.ipynb).
-  - Dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoD-W5BEoEBHodObX0HsTq4BNF83OriRgVpEUrjcqAzg3Q?e=fl6y1j).
+  - For implementation, see [wavelet.ipynb](Denoisers/wavelet.ipynb).
+  - Denoied dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoD-W5BEoEBHodObX0HsTq4BNF83OriRgVpEUrjcqAzg3Q?e=fl6y1j).
 
 - **For results after applying the CDA denoiser, please refer to the following files:**
   - [logistic_regression_cda.ipynb](Logistic_Regression/logistic_regression_cda.ipynb)
