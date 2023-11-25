@@ -27,7 +27,7 @@ For results after applying the [CDA denoiser](https://github.com/adam-mah/Medica
     resnet_CDA.ipynb
     swin_CDA.ipynb
 
-For results after applying the Bm3D denoiser, please refer to the following files:
+For results after applying the BM3D denoiser, please refer to the following files:
 
     automl_bm3d.ipynb
     svm_bm3d.ipynb
