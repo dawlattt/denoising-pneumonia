@@ -15,15 +15,18 @@ For the baseline, please refer to the following files:
 
 Our next step involved applying different denoising techniques to remove noise from our dataset. The denoising methods we utilized include:
 
-    CDA denoiser 
-    For results, see CDA.ipynb, dataset is available [here]().
-    
-    Bm3d denoiser
-    For results, see Bm3d.ipynb, dataset is available [here]().
-    
+- **CDA denoiser**
+  - For results, see [CDA.ipynb](link_to_CDA.ipynb).
+  - Dataset is available [here](link_to_dataset).
+
+- **Bm3d denoiser**
+  - For results, see [Bm3d.ipynb](link_to_Bm3d.ipynb).
+  - Dataset is available [here](link_to_dataset).
+
 - **Wavelet denoiser**
   - For results, see [wavelet.ipynb](link_to_wavelet.ipynb).
   - Dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoD-W5BEoEBHodObX0HsTq4BNF83OriRgVpEUrjcqAzg3Q?e=fl6y1j).
+
 
 For results after applying the [CDA denoiser](https://github.com/adam-mah/Medical-Image-Denoising), please refer to the following files:
 
