@@ -8,7 +8,7 @@ For the baseline, please refer to the following files:
 
 - **Baseline**
   - [automl_baseline.ipynb](AutoML/automl_baseline.ipynb)
-  - [svm_baseline.ipynb]()
+  - [svm_baseline.ipynb](SVM/svm_baseline.ipynb)
   - [logistic_regression_baseline.ipynb]()
   - [resnet_baseline.ipynb]()
   - [swin_baseline.ipynb]()
