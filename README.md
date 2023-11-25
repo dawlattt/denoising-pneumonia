@@ -16,7 +16,7 @@ For the baseline, please refer to the following files:
 Our next step involved applying different denoising techniques to remove noise from our dataset. The denoising methods we utilized include:
 
 - **CDA denoiser**
-  - For results, see [CDA.ipynb](link_to_CDA.ipynb).
+  - For results, see [CDA.ipynb](Denoisers/CDA.ipynb).
   - Dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EleswHYsodxNhBVfQknlTTYBSUVkyrrd8ihPkiCFn3emHA?e=1IZ9M4).
 
 - **Bm3d denoiser**
