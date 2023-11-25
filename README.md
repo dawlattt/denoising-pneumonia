@@ -18,15 +18,15 @@ In this project, we are evaluating the impact of denoising techniques like, Conv
 
 - **CDA denoiser**
   - For implementation, see [CDA.ipynb](Denoisers/CDA.ipynb).
-  - Denoied dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EleswHYsodxNhBVfQknlTTYBSUVkyrrd8ihPkiCFn3emHA?e=1IZ9M4).
+  - Denoised dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EleswHYsodxNhBVfQknlTTYBSUVkyrrd8ihPkiCFn3emHA?e=1IZ9M4).
 
 - **Bm3d denoiser**
   - For implementation, see [Bm3d.ipynb](Denoisers/Bm3d.ipynb).
-  - Denoied dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/Es4l41z5vtFKqJ86bEeuFdYBtU2CRlrGcUMYlgf--V4gyQ?e=ypPiE4).
+  - Denoised dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/Es4l41z5vtFKqJ86bEeuFdYBtU2CRlrGcUMYlgf--V4gyQ?e=ypPiE4).
 
 - **Wavelet denoiser**
   - For implementation, see [wavelet.ipynb](Denoisers/wavelet.ipynb).
-  - Denoied dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoD-W5BEoEBHodObX0HsTq4BNF83OriRgVpEUrjcqAzg3Q?e=fl6y1j).
+  - Denoised dataset is available [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/dawlat_akaila_mbzuai_ac_ae/EoD-W5BEoEBHodObX0HsTq4BNF83OriRgVpEUrjcqAzg3Q?e=fl6y1j).
 
 
 
